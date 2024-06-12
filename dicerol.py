@@ -3,7 +3,7 @@ import random  # Import the random module to use for generating random numbers
 # Function to simulate rolling a die
 def roll():
     min_value = 1  
-    max_value = 9
+    max_value = 6
     result = random.randint(min_value, max_value)  # Generate a random number between 1 and 6
     return result  # Return the result of the roll
 
